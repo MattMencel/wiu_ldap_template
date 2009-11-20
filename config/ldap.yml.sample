@@ -1,0 +1,19 @@
+development:
+  host: ldap.wiu.edu
+  base: dc=wiu,dc=edu
+  bind_dn: cn=Manager,ou=people,dc=wiu,dc=edu
+  password: secret
+ 
+test:
+	host: ldap.wiu.edu
+	base: dc=wiu,dc=edu
+	bind_dn: cn=Manager,ou=people,dc=wiu,dc=edu
+	password: secret
+	
+production:
+	host: ldap.wiu.edu
+	base: dc=wiu,dc=edu
+	port: 636
+	bind_dn: cn=Manager,ou=people,dc=wiu,dc=edu
+	password: secret
+	method: ssl
